@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: ballast
+Version: 0.1.0
+Summary: A single-rotor UAV that steers by moving its own centre of gravity
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/tunardev/ballast
+Project-URL: Issues, https://github.com/tunardev/ballast/issues
+Keywords: uav,drone,robotics,flight-control,multibody-dynamics,moving-mass,aerospace,simulation,control-theory
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.24
+Provides-Extra: viz
+Requires-Dist: matplotlib>=3.7; extra == "viz"
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: matplotlib>=3.7; extra == "dev"
+Dynamic: license-file
